@@ -1,5 +1,4 @@
 body {
-    background-color: gray;
 }
 ul {
     float: left;
@@ -12,7 +11,9 @@ li {
     display: block;
     float: left;
     text-align: center;
-    background-color: black;
-    color: white;
     padding: 10px 15px;
+}
+.przyciski {
+    display: flex;
+    justify-content: space-between;
 }
